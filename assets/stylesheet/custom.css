@@ -1,0 +1,16 @@
+.btnHref {
+    display: flex;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(194, 157, 115);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white !important;
+    transition: .4s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
